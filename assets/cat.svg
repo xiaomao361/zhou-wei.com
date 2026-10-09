@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" role="img" aria-label="小猫">
+  <g stroke="#292d2a" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M6 27L8 7L16 14H25L33 6L35 27C32 34 10 35 6 27Z" fill="#f7f4ee"/>
+    <path d="M13 23H15M26 23H28M19 28L21 29L23 27M8 26L2 24M8 29L2 30M32 26L38 24M32 29L38 30" fill="none"/>
+  </g>
+</svg>

@@ -1,0 +1,11 @@
+{
+  "name": "zhou-wei-personal-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Zhou Wei's static personal portfolio",
+  "scripts": {
+    "check": "python3 scripts/check.py",
+    "build": "npm run check && node scripts/build.mjs",
+    "preview": "python3 -m http.server 4173 --bind 127.0.0.1 --directory dist"
+  }
+}
