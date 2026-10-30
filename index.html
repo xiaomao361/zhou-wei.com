@@ -4,12 +4,12 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#f7f4ee">
-  <meta name="description" content="Zhou Wei 的个人作品站。做自己会用的小工具，也做一些奇怪的小玩意：AI 工具、原生应用，还有掌心里的游戏。">
+  <meta name="description" content="Zhou Wei 的个人作品：收下、搁这儿、ClaraCore、Radwater，以及 AI Passport 上的游戏和硬件小实验。">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Zhou Wei — 做点东西">
-  <meta property="og:description" content="做自己会用的小工具，也做一些奇怪的小玩意。">
+  <meta property="og:title" content="Zhou Wei — 软件、游戏和小设备">
+  <meta property="og:description" content="Mac 和 iPhone 上的小工具，放进口袋里的游戏。">
   <meta property="og:locale" content="zh_CN">
-  <title>Zhou Wei — 做点东西</title>
+  <title>Zhou Wei — 软件、游戏和小设备</title>
   <link rel="icon" href="assets/cat.svg" type="image/svg+xml">
   <link rel="stylesheet" href="styles.css">
 </head>
@@ -31,8 +31,8 @@
     <main id="main">
       <section class="hero" aria-labelledby="hero-title">
         <div class="hero-copy">
-          <h1 id="hero-title"><span>做自己会用的小工具，</span><span>也做一些奇怪的小玩意。</span></h1>
-          <p>AI 工具、原生应用，还有掌心里的游戏。</p>
+          <h1 id="hero-title"><span>写点软件，</span><span>做点游戏。</span></h1>
+          <p>Mac 和 iPhone 上的小工具，<br>放进口袋里的游戏。</p>
           <a class="primary-link" href="#works">看看作品 <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 12h15M13 6l6 6-6 6"/></svg></a>
         </div>
         <div class="hero-art">
@@ -41,21 +41,22 @@
       </section>
 
       <section class="works" id="works" aria-labelledby="works-title">
-        <h2 id="works-title">做过的一些东西</h2>
+        <h2 id="works-title">作品</h2>
 
         <article class="project project-shouxia" aria-labelledby="shouxia-title">
           <figure class="project-media pickup-media">
             <div class="phone-pair">
-              <img class="phone-screen phone-home" src="assets/shouxia-home.webp" alt="收下首页：按地点整理的待取包裹" width="600" height="1300" loading="lazy">
-              <img class="phone-screen phone-code" src="assets/shouxia-code.webp" alt="收下取件现场的大字取件码" width="600" height="1300" loading="lazy">
+              <img class="phone-screen phone-home" src="assets/shouxia-store-home.jpg" alt="收下首页：按地点整理的待取包裹" width="221" height="480" loading="lazy">
+              <img class="phone-screen phone-code" src="assets/shouxia-store-code.jpg" alt="收下取件现场的大字取件码" width="221" height="480" loading="lazy">
             </div>
-            <figcaption>AI 编辑的脱敏界面展示图</figcaption>
+            <figcaption>App Store 展示图</figcaption>
           </figure>
           <div class="project-copy">
-            <p class="project-kind">iOS · 日常小工具</p>
+            <p class="project-kind">iPhone · 取件码收件箱</p>
             <h3 id="shouxia-title">收下</h3>
-            <p>把取件码收在一起，到站一眼找到。</p>
-            <p class="project-detail">从短信、文字和截图里收下取件信息。需要代取时，把几件包裹整理成一份交接。</p>
+            <p>取件码放一起，到站直接看。</p>
+            <p class="project-detail">从短信、文字和截图导入取件信息，用小组件或大字模式查看。请人代取时，按地点整理好再分享。识别和记录都留在手机里。</p>
+            <p class="release-note"><a href="https://apps.apple.com/cn/app/id6795735956">1.3.2 · 改进取件码识别，新增短信设置视频</a></p>
             <div class="project-links">
               <a class="text-link" href="https://xiaomao361.github.io/shouxia/">认识收下 <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 12h15M13 6l6 6-6 6"/></svg></a>
               <a class="secondary-link" href="https://apps.apple.com/cn/app/id6795735956">App Store</a>
@@ -64,72 +65,130 @@
           </div>
         </article>
 
+        <article class="project project-claracore" aria-labelledby="claracore-title">
+          <figure class="project-media continuity-media">
+            <img src="assets/claracore.webp" alt="ClaraCore 的连续丝带与蓝色节点插画" width="1536" height="1024" loading="lazy">
+          </figure>
+          <div class="project-copy">
+            <p class="project-kind">macOS / Windows · 记忆与资料</p>
+            <h3 id="claracore-title">ClaraCore Desktop</h3>
+            <p>换一段对话，也能接着之前的工作。</p>
+            <p class="project-detail">在电脑上保存记忆、项目进度和 Markdown 资料，让不同客户端通过 MCP 访问。可以查看来源，也可以自己备份和管理数据。</p>
+            <p class="release-note"><a href="https://github.com/xiaomao361/claracore-desktop/releases/tag/v1.0.6">1.0.6 · 更新阅读页面、搜索和模型设置</a></p>
+            <div class="project-links">
+              <a class="text-link" href="https://xiaomao361.github.io/claracore-desktop/">项目主页 <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 12h15M13 6l6 6-6 6"/></svg></a>
+              <a class="secondary-link" href="https://github.com/xiaomao361/claracore-desktop/releases/latest">下载应用</a>
+              <a class="secondary-link" href="https://github.com/xiaomao361/claracore-desktop">GitHub</a>
+            </div>
+          </div>
+        </article>
+
         <article class="project project-dockshelf" aria-labelledby="dockshelf-title">
           <figure class="project-media shelf-media">
             <img src="assets/dockshelf-mark.svg" alt="搁这儿的文件搁板图标" width="220" height="220" loading="lazy">
-            <figcaption>搁这儿 · 品牌图形</figcaption>
           </figure>
           <div class="project-copy">
-            <p class="project-kind">macOS · 日常小工具</p>
+            <p class="project-kind">macOS · 菜单栏文件搁板</p>
             <h3 id="dockshelf-title">搁这儿</h3>
             <p>待会儿要用的文件，先搁在菜单栏。</p>
-            <p class="project-detail">拖进来，需要时再拖出去。文件留在原处，让临时的来回操作少一点麻烦。</p>
+            <p class="project-detail">从 Finder 拖进来，再拖到聊天、邮件或浏览器。只暂存文件引用，原文件留在原处；常用的可以固定下来。</p>
+            <p class="release-note"><a href="https://github.com/xiaomao361/dockshelf/releases/tag/v0.1.5">0.1.5 · 改进拖放、文件辨认和操作反馈</a></p>
             <div class="project-links">
               <a class="text-link" href="https://github.com/xiaomao361/dockshelf/releases/latest">下载应用 <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 12h15M13 6l6 6-6 6"/></svg></a>
+              <a class="secondary-link" href="https://xiaomao361.github.io/dockshelf/">项目主页</a>
               <a class="secondary-link" href="https://github.com/xiaomao361/dockshelf">GitHub</a>
             </div>
           </div>
         </article>
 
         <article class="project project-radwater" aria-labelledby="radwater-title">
-          <figure class="project-media fishing-media">
-            <div class="fishing-window">
-              <img src="assets/radwater.webp" alt="Radwater · 余波的废土水边与钓鱼场景" width="1008" height="954" loading="lazy">
-            </div>
-            <figcaption>游戏画面 · 同源渲染预览</figcaption>
+          <figure class="project-media passport-media">
+            <img src="assets/radwater-passport.webp" alt="余波：暮湾的夕照水岸、码头和垂钓画面" width="900" height="1200" loading="lazy">
+            <figcaption>AI Passport 版 · 游戏画面预览</figcaption>
           </figure>
           <div class="project-copy">
-            <p class="project-kind">M5Stack Cardputer ADV · 小小的游戏</p>
+            <p class="project-kind">AI Passport / Cardputer ADV · 离线游戏</p>
             <h3 id="radwater-title">Radwater <span class="title-separator">·</span> 余波</h3>
             <p>水质尚未达标，垂钓照常进行。</p>
-            <p class="project-detail">一款掌心里的废土钓鱼游戏。钓起奇怪的东西，慢慢拼出水边的往事。</p>
+            <p class="project-detail">AI Passport 版「余波：暮湾」现已发布。在苇岸、暮湾和星潭钓鱼，翻看旧物上的记录，读完四章水边往事。咬钩会等你，可以随时放下。</p>
+            <p class="release-note"><a href="https://ai-passport.folotoy.cn/plays/1690/">AI Passport 0.5.1 · 三处水岸的新画面</a></p>
             <div class="project-links">
-              <a class="text-link" href="https://github.com/xiaomao361/radwater#开始钓鱼">开始钓鱼 <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 12h15M13 6l6 6-6 6"/></svg></a>
-              <a class="secondary-link" href="https://github.com/xiaomao361/radwater">GitHub</a>
+              <a class="text-link" href="https://ai-passport.folotoy.cn/plays/1690/">AI Passport 版 <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 12h15M13 6l6 6-6 6"/></svg></a>
+              <a class="secondary-link" href="https://github.com/xiaomao361/radwater">Cardputer ADV 原版</a>
             </div>
           </div>
         </article>
 
-        <div class="more-projects" aria-label="更多工具">
+        <div class="more-projects" aria-labelledby="tools-title">
+          <h3 class="tools-heading" id="tools-title">其他工具</h3>
           <article class="compact-project">
-            <h3><a href="https://github.com/xiaomao361/claracore-desktop">ClaraCore Desktop</a></h3>
-            <p>在本地管理 Agent 的记忆、任务续接与运行状态。</p>
-            <a class="text-link" href="https://github.com/xiaomao361/claracore-desktop" aria-label="在 GitHub 查看 ClaraCore Desktop">GitHub <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 12h15M13 6l6 6-6 6"/></svg></a>
+            <h4><a href="https://github.com/xiaomao361/croc-gui">croc for macOS</a></h4>
+            <p>croc 的独立 macOS 界面。用口令收发文件，查看进度和传输结果。<span class="inline-release">0.3.2</span></p>
+            <a class="text-link" href="https://github.com/xiaomao361/croc-gui/releases/latest" aria-label="下载 croc for macOS">下载 <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 12h15M13 6l6 6-6 6"/></svg></a>
           </article>
           <article class="compact-project">
-            <h3><a href="https://github.com/xiaomao361/cora">Cora</a></h3>
-            <p>把应用错误日志整理成可复核的问题，交给人和 Agent 处理。</p>
+            <h4><a href="https://github.com/xiaomao361/cora">Cora</a></h4>
+            <p>把分散的应用报错归成问题，保存处理记录，通过 HTTP 和 MCP 查询。</p>
             <a class="text-link" href="https://github.com/xiaomao361/cora" aria-label="在 GitHub 查看 Cora">GitHub <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 12h15M13 6l6 6-6 6"/></svg></a>
           </article>
           <article class="compact-project">
-            <h3><a href="https://github.com/xiaomao361/croc-gui">croc for macOS</a></h3>
-            <p>给 croc 文件传输工具做一个独立的原生 macOS 界面。</p>
-            <a class="text-link" href="https://github.com/xiaomao361/croc-gui" aria-label="在 GitHub 查看 croc for macOS">GitHub <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 12h15M13 6l6 6-6 6"/></svg></a>
+            <h4><a href="https://github.com/xiaomao361/claracore-server">ClaraCore Server</a></h4>
+            <p>自托管的团队记忆与知识服务，按成员和空间管理资料及访问权限。</p>
+            <a class="text-link" href="https://github.com/xiaomao361/claracore-server" aria-label="在 GitHub 查看 ClaraCore Server">源码 <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 12h15M13 6l6 6-6 6"/></svg></a>
+          </article>
+          <article class="compact-project">
+            <h4><a href="https://github.com/xiaomao361/dsh-capability-gateway">DSH Capability Gateway</a></h4>
+            <p>给 DeepSeek Harness 按需查找和调用 Skills、MCP 工具，减少常驻工具目录。</p>
+            <a class="text-link" href="https://github.com/xiaomao361/dsh-capability-gateway" aria-label="在 GitHub 查看 DSH Capability Gateway">源码 <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 12h15M13 6l6 6-6 6"/></svg></a>
+          </article>
+        </div>
+      </section>
+
+      <section class="in-progress" id="in-progress" aria-labelledby="progress-title">
+        <div class="section-heading">
+          <h2 id="progress-title">制作中</h2>
+          <p>几件还没公开下载的小东西。</p>
+        </div>
+        <div class="experiment-list">
+          <article class="experiment">
+            <figure class="experiment-media microcosm-media">
+              <img src="assets/microcosm.webp" alt="微境的雨林生态与正在觅食的生物" width="240" height="320" loading="lazy">
+              <figcaption>开发预览</figcaption>
+            </figure>
+            <h3>微境 · Microcosm</h3>
+            <p>在 AI Passport 上养一个小生态。选雨林、深海或别的环境，放入生命，看它们觅食、跟随和避让。</p>
+          </article>
+          <article class="experiment">
+            <figure class="experiment-media wick-media">
+              <img src="assets/wick.webp" alt="Wick 的小屋与森林场景" width="320" height="240" loading="lazy">
+              <figcaption>开发预览</figcaption>
+            </figure>
+            <h3>Wick</h3>
+            <p>AI Passport 上的五章小故事。远处的灯灭了，一个小生灵修好自己的灯，背上行囊出发。</p>
+          </article>
+          <article class="experiment">
+            <figure class="experiment-media ink-media">
+              <img src="assets/ink-crew.svg" alt="INK CREW 的墨水小伙伴" width="720" height="360" loading="lazy">
+              <figcaption>角色图形</figcaption>
+            </figure>
+            <h3>INK CREW</h3>
+            <p>放在桌边的墨水小伙伴。通过蓝牙显示观察到的 Codex 工作状态、回复结束和账号额度。</p>
+            <p class="attribution">个人改版，基于 <a href="https://github.com/zt20/codex-usage-ai-passport">zt20 的 Codex Usage</a>。</p>
           </article>
         </div>
       </section>
 
       <section class="about" id="about" aria-labelledby="about-title">
         <h2 id="about-title">关于我</h2>
-        <p>我是 Zhou Wei。喜欢从自己遇到的小麻烦出发，把想法做成能用的东西。</p>
-        <p>有时是一个日常小工具，有时是一次关于 AI 的实验，也可能是一款掌心里的游戏。</p>
+        <p>我是 Zhou Wei，平时写软件，也折腾掌机和电子小设备。</p>
+        <p>这里放一些自己做的应用、游戏和还在试的小东西。</p>
         <a class="text-link" href="https://github.com/xiaomao361">在 GitHub 找到我 <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 12h15M13 6l6 6-6 6"/></svg></a>
       </section>
     </main>
 
     <footer class="site-footer">
       <a class="footer-name" href="./">Zhou Wei.</a>
-      <p>写点代码，做点东西，也玩点游戏。</p>
+      <p>软件、游戏和小设备。</p>
       <a href="https://github.com/xiaomao361">GitHub</a>
     </footer>
   </div>

@@ -1,6 +1,6 @@
-# Zhou Wei · 做点东西
+# Zhou Wei · 软件、游戏和小设备
 
-个人作品主页，展示日常小工具、AI 工具和掌机游戏。
+个人作品主页，展示应用、游戏、开发工具和制作中的硬件小实验。
 
 网站：https://xiaomao361.github.io/zhou-wei.com/
 
@@ -20,7 +20,7 @@ GitHub Pages 从 `main` 分支根目录发布。每次推送后由 GitHub 自动
 ## 素材与验证
 
 - [素材来源与使用边界](docs/ASSETS.md)
-- [设计与验收记录](docs/DESIGN.md)
+- [页面设计、内容来源与验证范围](docs/DESIGN.md)
 - [自定义域名接入](docs/DOMAIN.md)
 
 `npm run check` 检查本地素材、锚点、图片尺寸字段、标题结构、HTTPS 链接与 SVG 格式；构建产物输出到 `dist/`。这些检查不证明实际浏览器中的布局、触控或键盘体验已验收。
